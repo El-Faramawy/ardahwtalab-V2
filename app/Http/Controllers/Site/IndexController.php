@@ -46,10 +46,9 @@ class IndexController extends Controller
         $data['depts'] = Depts::where('parent_id', null)->select('id','name')->get();
         $data['advs'] = Advs::where(['active' => 1,'is_deleted'=>0])
             ->orderBy('id', 'desc')
-            ->select('id','price','show_phone','complete','created_at','title','description')
+            // ->select('id','price','show_phone','complete','created_at','title','description','slug')
             ->paginate(request('perpage' , 20));
         $data['advs_count'] = Advs::where(['active' => 1])->count();
-        dd($data['advs']['short']);
 
         return view('site.pages.home', $data);
     }

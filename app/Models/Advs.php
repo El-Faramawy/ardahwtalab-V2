@@ -11,7 +11,7 @@ class Advs extends Model
     protected $table = 'advs';
     protected $guarded = ['id'];
     protected $hidden = ['updated_at'];
-    protected $appends = ['main_options', 'has_bids', 'short', 'link', 'image'];
+    protected $appends = ['main_options', 'has_bids'];
 
 
     // public static function boot()
