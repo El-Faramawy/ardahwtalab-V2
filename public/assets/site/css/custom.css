@@ -1,0 +1,261 @@
+header {
+    box-shadow: 0px 0px;
+    border: 0px;
+    background: transparent;
+}
+
+.box-contents-name {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 15px 22px;
+    margin-bottom: 50px;
+    font-size: 17px !important;
+}
+
+#cont_meta,
+.ads_user {
+    background: #ebebeb;
+}
+
+.box-contents-content {
+    background: transparent !important;
+}
+
+.box-contents-content img {
+    max-width: 600px;
+    max-height: 400px;
+    display: table;
+    margin: auto;
+    margin-bottom: 40px;
+    border: solid;
+}
+
+footer {
+    height: auto !important;
+    max-height: auto !important;
+    min-height: auto !important;
+    border: 0px !important;
+}
+
+.chat li {
+    padding: 5px;
+    border-bottom: solid 1px #999;
+}
+
+.chat img {
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+}
+
+.chat li span {
+    color: #555;
+    font-weight: bold;
+}
+
+.chat li p {
+    color: #000;
+    padding: 10px;
+}
+
+.chat li.active {
+    background: #f2f2f2 !important;
+}
+
+.chat li.active p {
+    font-weight: bold;
+    color: #da768e;
+}
+
+form.login .register {
+    display: table !important;
+    color: #555;
+    border: solid 2px #555;
+}
+
+.not-loged {
+    margin-left: 10px;
+}
+
+.not-loged i {
+    font-size: 17px !important;
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center;
+    line-height: 30px;
+    margin: 0px !important;
+}
+
+.not-loged span {
+    font-size: 15px;
+}
+
+@media all and (max-width:750px) {
+    .sh-form div,
+    .sh-form input,
+    .sh-form button {
+        min-width: 100% !important;
+        margin: 3px 0px !important;
+    }
+    .sh-form .search-btn {
+        display: table !important;
+        margin-top: 160px !important;
+        min-width: 90% !important;
+    }
+    .lists {
+        margin-top: 100px !important;
+    }
+}
+
+header .social li {
+    float: right;
+    padding: 0px 10px;
+}
+
+header .social li a {
+    color: #999;
+}
+
+.box-contents-name {
+    background: #3c1e54 !important;
+    border-radius: 0px;
+    height: 50px !important;
+}
+
+.input-group-addon {
+    display: none;
+}
+
+.col-lg-2 {
+    text-align: right !important;
+}
+
+.input-group {
+    width: 100% !important;
+}
+
+.col-lg-10 .col-sm-6 {
+    padding: 0px;
+}
+
+select,
+input {
+    padding: 0px 10px !important;
+    height: 40px !important;
+    border-radius: 0px !important;
+}
+
+.sh-sub,
+.set_data,
+.submitButton {
+    display: table;
+    float: left;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    background: #3c1e54 !important;
+    color: #fff;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+.sh-sub:hover,
+.set_data:hover,
+.submitButton:hover {
+    color: #fff;
+    font-size: 17px;
+    background: #3c1e54 !important;
+}
+
+.shared-this {
+    float: right;
+}
+
+.at-share-btn-elements a {
+    float: right;
+}
+
+.comments img {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #555;
+    float: right;
+    margin-left: 10px;
+}
+
+.comments p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.comments li {
+    border-bottom: solid 1px;
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.phi-form-item input {
+    width: 100%;
+}
+
+.btn-like {
+    background: #ca2b2b;
+}
+
+.btn-like i,
+.btn-like span,
+.btn-like em {
+    background: #3c1e54;
+}
+
+.box-menu-title {
+    background: #3c1e54 !important;
+    border-radius: 0px !important;
+}
+
+.ads-s-items thead {
+    background: #3c1e54 !important;
+}
+
+.ads-s-items thead th {
+    text-align: center;
+    height: 40px;
+}
+
+.box-contents-content img {
+    width: 450px;
+}
+
+.col-md-8 .recent {
+    margin-top: 0px;
+}
+
+footer {
+    background: #fff;
+}
+
+.actions a {
+    text-align: center;
+    line-height: 40px;
+}
+
+.actions .user a {
+    padding: 7px 20px !important
+}
+
+.actions .user a:hover {
+    background: #3d2d67;
+    color: #fff;
+}
+
+.input-group .input-group-addon {
+    display: none;
+}
+
+.submitButton {
+    color: #fff !important;
+}
+
+

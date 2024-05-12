@@ -1,0 +1,38 @@
+.mo-accordion {
+    cursor: pointer;
+    min-width: 100%;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:after {
+        content: '\f078';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-left: 10px;
+        font-size: 10px;
+        color: #333333;
+    }
+
+    &.mo-active {
+        &:after {
+            content: "\f077";
+        }
+    }
+
+    @media (max-width:767px) {
+        margin-bottom: 15px;
+    }
+}
+
+.mo-panel {
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 5px;
+}

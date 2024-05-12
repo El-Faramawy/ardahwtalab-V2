@@ -1,0 +1,6156 @@
+
+
+@import "contact-us/flaticon.css";
+
+@import "fonts.css";
+
+@import "color.css";
+
+@import "flags32.css";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, embed, object, input {
+
+    border-collapse: collapse;
+
+    border-width: 0;
+
+    list-style: outside none none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    color: #666666;
+
+    direction: rtl;
+
+    font: 12px/20px Tahoma,Geneva,sans-serif;
+
+}
+
+a:active, a:link, a:visited, a:hover {
+
+    color: #015aa6;
+
+    font-size: 100%;
+
+    margin: 0;
+
+    outline: 0 none;
+
+    padding: 0;
+
+    text-decoration: none;
+
+    transition: all 400ms ease-in-out 0s;
+
+    vertical-align: baseline;
+
+}
+
+option {
+
+    border-bottom: 1px solid #ebdac0;
+
+    color: #0473c0;
+
+    padding: 1px 12px;
+
+}
+
+option[selectd] {
+
+    background-color: #ff0000;
+
+}
+
+option:hover {
+
+    cursor: pointer;
+
+}
+
+[selected] {
+
+    color: #ff0000;
+
+}
+
+input, textarea, select {
+
+    color: #424242;
+
+    font: 12px tahoma;
+
+    outline: medium none;
+
+    padding: 3px 6px;
+
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+
+}
+
+input[type="radio"] {
+
+    border-width: 0;
+
+    margin-left: 6px;
+
+}
+
+input[type="checkbox"] {
+
+    padding: 0;
+
+}
+
+select {
+
+    border: 1px solid #aaaaaa;
+
+    border-radius: 2px;
+
+    color: #333333;
+
+    padding: 3px;
+
+}
+
+input {
+
+    border: 1px solid #aaaaaa;
+
+    color: #555555;
+
+}
+
+input[type="submit"] {
+
+}
+
+.clear {
+
+    clear: both;
+
+}
+
+#wrapper {
+
+    margin-top: 10px;
+
+    min-height: 100%;
+
+    z-index: 1;
+
+}
+
+header {
+
+    background-color: #0473c0;
+
+    border-bottom: 1px solid #aaaaaa;
+
+    box-shadow: 0 9px 24px #969897;
+
+    margin: 0 auto 30px;
+
+    position: relative;
+
+}
+
+header .content {
+
+    line-height: 16px;
+
+    margin: 0 auto;
+
+    position: relative;
+
+}
+
+#logo {
+
+    height: 53px;
+
+    padding: 3px 0;
+
+}
+
+#logo img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+}
+
+header .img {
+
+    position: absolute;
+
+    right: 54px;
+
+    top: -48px;
+
+}
+
+header .img img {
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+}
+
+footer .footer-menu {
+
+    border-bottom: 2px solid #b8b8b8;
+
+    border-top: 2px solid #b8b8b8;
+
+    overflow: hidden;
+
+}
+
+footer .footer-menu .footer-menu-content {
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 7px;
+
+    position: relative;
+
+}
+
+footer .footer-menu ul {
+
+    display: table;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+footer .footer-menu ul li {
+
+    background: rgba(0, 0, 0, 0) url("../icons/site_menu_li.jpg") no-repeat scroll 0 center;
+
+    float: right;
+
+    font: bold 12px/42px "Droid Arabic Kufi";
+
+    padding: 0;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+footer .footer-menu ul li:last-child {
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+}
+
+footer .footer-menu ul li a {
+
+    color: #0473c0;
+
+    display: block;
+
+    padding: 0 12px;
+
+}
+
+footer .footer-copyright {
+
+    color: #0473c0;
+
+    font: 13px/41px "Droid Arabic Kufi";
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+.LV_validation_message {
+
+    font-weight: bold;
+
+}
+
+.LV_valid {
+
+    color: #00cc00;
+
+}
+
+.LV_invalid {
+
+    color: #cc0000;
+
+    float: right;
+
+    width: 100%;
+
+}
+
+.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active {
+
+    border: 1px solid #00cc00;
+
+}
+
+.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active {
+
+    border: 1px solid #cc0000;
+
+}
+
+.latest_news {
+
+    height: 176px;
+
+    margin: 0 auto 20px;
+
+    padding: 0 8px;
+
+    width: 487px;
+
+}
+
+.site_menu {
+
+    float: left;
+
+    overflow: hidden;
+
+}
+
+.site_menu ul {
+
+    display: table;
+
+    margin: 6px auto;
+
+    max-width: 735px;
+
+    overflow: hidden;
+
+    padding: 0 16px;
+
+}
+
+.site_menu li {
+
+    background: rgba(0, 0, 0, 0) url("../icons/site_menu_li.jpg") no-repeat scroll 0 center;
+
+    float: right;
+
+    font: bold 12px/42px "Droid Arabic Kufi";
+
+    padding: 0;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+.site_menu li a {
+
+    color: #ffffff;
+
+    display: block;
+
+    padding: 0 10px;
+
+}
+
+.site_menu li:last-child {
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+}
+
+footer {
+
+    border-top: 3px solid #b8b8b8;
+
+    margin-top: 20px;
+
+    overflow: hidden;
+
+}
+
+footer .footer_content {
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 20px 0;
+
+    position: relative;
+
+}
+
+.slide-shadow {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slide-shadow.png") no-repeat scroll 0 0;
+
+    height: 68px;
+
+    margin: 0 auto;
+
+    width: 968px;
+
+}
+
+.sidebar-menu {
+
+}
+
+.sidebar-menu li {
+
+    border-bottom: 1px solid #ebebeb;
+
+    border-top: 1px solid #ebebeb;
+
+    font: bold 12px/53px "Droid Arabic Kufi";
+
+    margin-top: 1px;
+
+    min-height: 53px;
+
+    padding-right: 27px;
+
+}
+
+.sidebar-menu li:hover {
+
+    background: #323b44 url("../icons/menu-li-i.png") no-repeat scroll 96% center;
+
+}
+
+.sidebar-menu li:hover a {
+
+    color: #ffffff;
+
+}
+
+.sidebar-menu li:last-child {
+
+    border: medium none;
+
+}
+
+.sidebar-menu li a {
+
+    display: block;
+
+}
+
+#slider-sa {
+
+    background-color: #f8f8f8;
+
+    border: 1px solid #dbdbdb;
+
+    border-radius: 7px;
+
+    margin: 0 auto;
+
+    padding: 11px 0;
+
+}
+
+#slider-sa .slider-sa-content {
+
+    height: 220px;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 0 34px;
+
+    position: relative;
+
+}
+
+#slider-sa .bx-wrapper {
+
+    position: static;
+
+}
+
+#slider-sa .slide {
+
+    border-radius: 6px;
+
+    color: #ffffff;
+
+    direction: rtl;
+
+    height: 220px;
+
+    margin: 1px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+#slider-sa .slide img {
+
+    border-radius: 5px;
+
+    display: block;
+
+    height: 174px;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+}
+
+#slider-sa .slide-img {
+
+    background: rgba(0, 0, 0, 0) url("../icons/no-img.png") no-repeat scroll center center;
+
+    height: 177px;
+
+}
+
+#slider-sa .slide .slide-name {
+
+    border-radius: 0 0 5px 5px;
+
+    color: #4e6d79;
+
+    font: bold 11px/21px "Droid Arabic Kufi";
+
+    max-height: 42px;
+
+    overflow: hidden;
+
+    padding: 0 2px;
+
+    text-align: center;
+
+}
+
+#slider-sa .bx-controls .bx-pager .bx-pager-item {
+
+}
+
+#slider-sa .bx-controls .bx-pager .bx-pager-item a.bx-pager-link {
+
+    background-color: #fdd71c;
+
+    font-size: 0;
+
+    margin: 0 2px;
+
+}
+
+#slider-sa .bx-controls .bx-pager .bx-pager-item a.active {
+
+    background-color: #f99714;
+
+}
+
+#slider-sa .bx-controls .bx-controls-direction .bx-next {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slider-sa-n-p.png") repeat scroll right 0;
+
+    height: 15px;
+
+    right: 12px;
+
+    width: 8px;
+
+}
+
+#slider-sa .bx-controls .bx-controls-direction .bx-prev {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slider-sa-n-p.png") repeat scroll 0 0;
+
+    height: 15px;
+
+    left: 12px;
+
+    width: 8px;
+
+}
+
+#slider-sa .bx-controls .bx-controls-direction a {
+
+    top: 97px;
+
+}
+
+#site-slider {
+
+    border-radius: 27px;
+
+    height: 200px;
+
+    margin: 2%;
+
+    overflow: hidden;
+
+    width: 96%;
+
+}
+
+#site-slider .site-slider-content {
+
+    height: 300px;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.site-slider {
+
+    height: 390px;
+
+}
+
+#site-slider .bx-wrapper {
+
+    position: static;
+
+}
+
+#site-slider .slide {
+
+    color: #ffffff;
+
+    direction: rtl;
+
+    height: 200px;
+
+    position: relative;
+
+}
+
+#site-slider .slide .img {
+
+    background: #f4f4f4 url("../icons/url.png") no-repeat scroll center center;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 1px;
+
+    position: relative;
+
+}
+
+#site-slider .slide .slide-name {
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    bottom: 0;
+
+    color: #fff;
+
+    font: bold 13px/27px "JF Flat Regular";
+
+    max-height: 156px;
+
+    overflow: hidden;
+
+    padding: 10px 7px;
+
+    position: absolute;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+#site-slider .slide .slide-img {
+
+    background: #f4f4f4 url("../icons/no-img.png") no-repeat scroll center center;
+
+    height: 200px;
+
+}
+
+#site-slider .slide img {
+
+    display: block;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+}
+
+#site-slider .bx-controls .bx-controls-direction a {
+
+    height: 52px;
+
+    margin: 0;
+
+    padding: 0;
+
+    top: 76px;
+
+    width: 52px;
+
+}
+
+#site-slider .bx-wrapper .bx-next {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slide-next.png") repeat scroll 0 0;
+
+}
+
+#site-slider .bx-wrapper .bx-prev {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slide-previous.png") repeat scroll 0 0;
+
+}
+
+.slider-shadow {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slider-shadow.png") repeat scroll center bottom / 100% 100%;
+
+    height: 24px;
+
+    margin: 0 auto;
+
+    max-width: 532px;
+
+}
+
+.add-cont {
+
+    background-color: #409240;
+
+    border-radius: 4px;
+
+    font: bold 16px/44px "Droid Arabic Kufi";
+
+    height: 44px;
+
+    margin: 5px auto;
+
+    max-width: 188px;
+
+    padding: 0;
+
+    position: relative;
+
+    text-align: right;
+
+}
+
+.add-cont a {
+
+    color: #ffffff;
+
+    display: block;
+
+    padding: 0 48px 0 10px;
+
+}
+
+.add-cont i {
+
+    color: #ffffff;
+
+    font-size: 21px;
+
+    position: absolute;
+
+    right: 15px;
+
+    top: 12px;
+
+}
+
+.phi-search {
+
+}
+
+.phi-search .phi-search-inline {
+
+    margin-bottom: 5px;
+
+}
+
+.phi-search .phi-search-row::after {
+
+    clear: both;
+
+}
+
+.phi-search .phi-search-inline label {
+
+    float: right;
+
+    font: 10px/25px "Droid Arabic Kufi";
+
+    margin-left: 4px;
+
+    width: 44px;
+
+}
+
+.phi-search .phi-search-inline .phi-search-item {
+
+    font: 14px/25px "Droid Arabic Kufi";
+
+    margin-right: 48px;
+
+}
+
+.phi-search .phi-search-item select, .phi-search .phi-search-item textarea, .phi-search-item input[type="text"] {
+
+    width: 100%;
+
+}
+
+.phi-search select, .phi-search textarea, .phi-search-item input[type="text"] {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #c5c5c5;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 0 #ffffff, 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    height: 29px;
+
+    margin: 0;
+
+    outline: medium none;
+
+    padding: 6px 7px;
+
+}
+
+.phi-search .phi-search-row {
+
+    overflow: hidden;
+
+    padding: 3px 0;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+.phi-search input[type="submit"] {
+
+    background: #409240 url("../icons/search-submit.png") no-repeat scroll 4px center;
+
+    border: medium none;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font: bold 12px/21px "Droid Arabic Kufi";
+
+    height: 30px;
+
+    margin-left: 2px;
+
+    padding: 3px 10px 7px 29px;
+
+    text-shadow: 0 0 0;
+
+    white-space: nowrap;
+
+}
+
+.search-id {
+
+    background-color: #409240;
+
+    margin: 0 0 20px;
+
+    padding: 6px 9px;
+
+}
+
+.search-id .submit_search {
+
+    background-color: #3aa53a;
+
+    border: medium none;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: block;
+
+    font: bold 12px tahoma;
+
+    height: 26px;
+
+    margin: 0 auto;
+
+    padding: 3px 3px 7px;
+
+    text-shadow: 0 0 0;
+
+    white-space: nowrap;
+
+    width: 52px;
+
+}
+
+.search-id .inp_search {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: medium none;
+
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    margin: 0;
+
+    outline: medium none;
+
+    padding: 6px 7px;
+
+    width: 100%;
+
+}
+
+#tabs {
+
+    border: 1px solid #0473c0;
+
+    margin: 0 auto 20px;
+
+}
+
+#tabs .tb {
+
+    overflow: hidden;
+
+}
+
+.list-types {
+
+    margin: 2px auto;
+
+    overflow: hidden;
+
+}
+
+.list-types li {
+
+    background: #ffffff url("../icons/no-img.png") no-repeat scroll center center;
+
+    border: 1px solid #e5e5e5;
+
+    float: right;
+
+    height: 53px;
+
+    margin: 1px;
+
+    width: 61px;
+
+}
+
+.list-types li a {
+
+    display: block;
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+.list-types li img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-height: 100%;
+
+    min-height: 40px;
+
+    width: 52px;
+
+}
+
+.tab-items {
+
+    background-color: #0473c0;
+
+    list-style: outside none none;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+}
+
+.tab-items li {
+
+    float: right;
+
+    font: bold 10px/32px "Droid Arabic Kufi";
+
+    height: 34px;
+
+    margin: 0 0 -1px;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    position: relative;
+
+    text-align: center;
+
+    width: 63px;
+
+}
+
+.tab-items li.active {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.tab-items li a {
+
+    border: 1px solid rgba(0, 0, 0, 0);
+
+    color: #ffffff;
+
+    display: block;
+
+    font-size: 1.2em;
+
+    height: 32px;
+
+    outline: medium none;
+
+    padding: 0;
+
+    text-decoration: none;
+
+}
+
+.tab-items li.active a {
+
+    color: #000000;
+
+}
+
+.social {
+
+    float: left;
+
+}
+
+.social ul {
+
+}
+
+.social ul li {
+
+    float: left;
+
+    height: 30px;
+
+    margin: 2px;
+
+    padding: 2px;
+
+    width: 30px;
+
+}
+
+.social ul li a {
+
+    display: block;
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+.social ul li img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+}
+
+.box_cont {
+
+    border-bottom: 1px solid #92b8c2;
+
+    margin: 0 auto 20px;
+
+    width: 100%;
+
+}
+
+.box_special {
+
+    border: 3px solid #9b0303;
+
+    box-shadow: 0 0 2px 1px #9b0303;
+
+}
+
+.box_cont thead {
+
+    background-color: #2fb7e7;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    font: bold 12px/42px "Droid Arabic Kufi";
+
+    height: 28px;
+
+    margin: 3px;
+
+    position: relative;
+
+}
+
+.box_cont thead tr {
+
+}
+
+.box_cont thead tr td {
+
+    text-align: center;
+
+}
+
+.box_cont tr td.name {
+
+}
+
+.box_cont tr td.name .num {
+
+    background-color: #e8e8e8;
+
+    color: #000;
+
+    float: right;
+
+    height: 32px;
+
+    line-height: 31px;
+
+    text-align: center;
+
+}
+
+.box_cont tr td.name .auctions-info {
+
+    border-right: 29px solid;
+
+    font-size: 11px;
+
+    padding-right: 7px;
+
+}
+
+.box_cont tr td.user {
+
+    font-size: 11px;
+
+    text-align: center;
+
+    width: 80px;
+
+}
+
+.box_cont tr td.name .AdEdit {
+
+    background: #eaf6f9 url("../icons/pencil.png") no-repeat scroll 93% center;
+
+    float: right;
+
+    height: 30px;
+
+    line-height: 29px;
+
+    margin: -5px 0 -5px 8px;
+
+    padding-left: 7px;
+
+    padding-right: 25px;
+
+}
+
+.box_cont tr td.name .ads_activ a {
+
+}
+
+.box_cont tr td.name .ads_activ {
+
+    background: #eaf6f9 url("../icons/accept.png") no-repeat scroll 93% center;
+
+    float: right;
+
+    height: 30px;
+
+    line-height: 29px;
+
+    margin: -5px 0 -5px 8px;
+
+    padding-left: 7px;
+
+    padding-right: 25px;
+
+}
+
+.box_cont tr td.name .ads_des_activ a {
+
+}
+
+.box_cont tr td.name .ads_des_activ {
+
+    background: #eaf6f9 url("../icons/cross.png") no-repeat scroll 93% center;
+
+    float: right;
+
+    height: 30px;
+
+    line-height: 29px;
+
+    margin: -5px 0 -5px 8px;
+
+    padding-left: 7px;
+
+    padding-right: 25px;
+
+}
+
+.box_cont tr td.name .bidding {
+
+    background-color: #eaf6f9;
+
+    float: left;
+
+    font-size: 9px;
+
+    line-height: 17px;
+
+    margin: -6px 5px;
+
+    text-align: center;
+
+    width: 109px;
+
+}
+
+.box_cont tr td.name .bidding ul {
+
+}
+
+.box_cont tr td.name .bidding ul li {
+
+    text-align: center;
+
+}
+
+.box_cont tr td.name .bidding ul li b {
+
+    float: right;
+
+    width: 50%;
+
+}
+
+.box_cont tr td.map {
+
+    font-size: 11px;
+
+    text-align: center;
+
+    width: 80px;
+
+}
+
+.box_cont tr td.time {
+
+    font-size: 11px;
+
+    text-align: center;
+
+    width: 92px;
+
+}
+
+.box_cont tbody tr {
+
+}
+
+.box_cont tbody {
+
+    background-color: #fffef7;
+
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.box_cont tbody:nth-child(2n+1) {
+
+    background-color: #f7fbfa;
+
+}
+
+.box_cont tbody tr td {
+
+    color: #4e6d79;
+
+    font: 13px/28px "Droid Arabic Kufi";
+
+    padding: 0;
+
+}
+
+.box_cont tbody tr td .found {
+
+    float: left;
+
+    margin-left: 6px;
+
+    margin-top: 10px;
+
+}
+
+.box_cont .del_report {
+
+    background: rgba(0, 0, 0, 0) url("../icons/checkmark-64.png") repeat scroll 0 49px;
+
+    float: right;
+
+    font-size: 0;
+
+    height: 16px;
+
+    left: 28px;
+
+    margin-left: 5px;
+
+    margin-top: 3px;
+
+    width: 15px;
+
+}
+
+.box_cont tbody tr td a {
+
+    color: #4e6d79;
+
+}
+
+.box_cont tbody tr td a {
+
+}
+
+.box_cont tbody tr td.name .Favorit {
+
+    float: right;
+
+    margin: 0 7px;
+
+}
+
+.box_cont tbody tr td.name .ads-img {
+
+    background: #f4f4f4 url("../icons/no-img.png") no-repeat scroll center center;
+
+    border-radius: 50%;
+
+    display: inline-block;
+
+    float: right;
+
+    font: bold 16px/25px Garamond,sans-serif;
+
+    height: 120px;
+
+    margin: 5px;
+
+    overflow: hidden;
+
+    width: 120px;
+
+}
+
+.box_cont tbody tr td.name .ads-img img {
+
+    border-radius: 50%;
+
+    display: block;
+
+    float: none;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+}
+
+.box_cont tbody tr td.name a.ads-name {
+
+    color: #009933;
+
+    display: block;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    margin: 0 auto;
+
+    max-width: 100%;
+
+}
+
+.box_cont tbody tr td .row-text {
+
+    color: #009933;
+
+    font-family: tahoma;
+
+    font-size: 12px;
+
+}
+
+.box_cont tbody tr td a.ads-user {
+
+    color: #0000ee;
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-width: 75px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.box_cont tbody tr td a.ads-area {
+
+    color: #0000ee;
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-width: 75px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.box_cont .del_report:hover {
+
+    background-position: 0 17px;
+
+}
+
+.box_cont .del_comment {
+
+    background: rgba(0, 0, 0, 0) url("../icons/close-64.png") repeat scroll 0 49px;
+
+    float: right;
+
+    font-size: 0;
+
+    height: 16px;
+
+    left: 28px;
+
+    margin-left: 5px;
+
+    margin-top: 3px;
+
+    width: 15px;
+
+}
+
+.box_cont .del_comment:hover {
+
+    background-position: 0 17px;
+
+}
+
+.pages_num {
+
+    margin-bottom: 10px;
+
+}
+
+.pages_num span {
+
+    -moz-user-select: none;
+
+    background: #f2f2f2 none repeat scroll 0 0;
+
+    border: 1px solid #e0e0e0;
+
+    border-radius: 3px;
+
+    display: inline-block;
+
+    font: bold 12px/21px GE_SS_Two;
+
+    height: 22px;
+
+    margin: 2px 0;
+
+    padding: 0 4px;
+
+    text-align: center;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+.pages_num span.next {
+
+}
+
+.pages_num span.previous {
+
+}
+
+.pages_num span.this-page {
+
+    background: #ffffff none repeat scroll 0 0;
+
+}
+
+.pages_num span:hover {
+
+}
+
+.pages_num span a {
+
+    padding: 1px;
+
+}
+
+
+
+h1.box-contents-name {
+
+background-color: #484687;
+
+    font-family: "Droid Arabic Kufi";
+
+    margin: 0px 0 20px;
+
+    color: #fff;
+
+    height: 55px;
+
+    padding: 0 22px;
+
+    line-height: 50px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+#box-contents h1.box-contents-name a {
+
+    color: #ffffff;
+
+}
+
+#box-contents .box-contents-content {
+
+    background-color: #ffffff;
+
+    padding: 13px 0;
+
+    position: relative;
+
+    width: auto;
+
+}
+
+#box-contents .box-contents-content .text {
+
+    font: 700 14px/30px "Droid Arabic Naskh",Arial,Helvetica,sans-serif,"Droid Arabic Kufi";
+
+    padding: 10px 5px;
+
+}
+
+#box-contents .box-contents-content .text img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-width: 98%;
+
+}
+
+#box-contents .box-contents-content .text iframe {
+
+    border: 1px solid #cccccc;
+
+    border-radius: 7px;
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-width: 98%;
+
+    padding: 1px;
+
+}
+
+#box-contents .box-contents-content .PIC {
+
+    border: 1px solid #cccccc;
+
+    border-radius: 7px;
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-width: 98%;
+
+    padding: 1px;
+
+}
+
+#box-contents .content-title {
+
+    color: #0d5a66;
+
+    font: 12px/35px "Droid Arabic Kufi";
+
+    padding: 12px 0;
+
+    text-align: center;
+
+}
+
+#box-contents .info {
+
+    background-color: #ffffff;
+
+    color: #777777;
+
+    font: 11px/25px "Droid Arabic Kufi";
+
+    padding: 12px 0;
+
+    text-align: center;
+
+}
+
+.ckeditor-code {
+
+    padding: 10px 5px;
+
+    word-wrap: break-word;
+
+}
+
+.ckeditor-code ul {
+
+    padding: 0 40px;
+
+}
+
+.ckeditor-code ul li {
+
+    list-style: outside none decimal;
+
+    margin-bottom: 4px;
+
+    margin-right: 10px;
+
+    margin-top: 4px;
+
+}
+
+.ckeditor-code ol {
+
+    padding: 0 40px 0 20px;
+
+}
+
+.ckeditor-code ol li {
+
+    list-style: outside none -moz-arabic-indic;
+
+    margin-bottom: 4px;
+
+    margin-right: -9px;
+
+    margin-top: 4px;
+
+}
+
+.ckeditor-code blockquote {
+
+    border-color: #cccccc;
+
+    border-style: solid;
+
+    border-width: 0 5px 0 0;
+
+    font-family: Georgia,Times,"Times New Roman",serif;
+
+    font-style: italic;
+
+    padding: 2px 20px 2px 8px;
+
+}
+
+.ckeditor-code table {
+
+    border: 2px ridge #cccccc;
+
+    margin: 10px 0;
+
+    width: 100%;
+
+}
+
+.ckeditor-code table tbody {
+
+    width: 100%;
+
+}
+
+.ckeditor-code table tr {
+
+    width: 100%;
+
+}
+
+.ckeditor-code table tr td {
+
+    border: 2px ridge #cccccc;
+
+}
+
+#conlist {
+
+}
+
+#conlist li {
+
+    color: #0473c0;
+
+    direction: rtl;
+
+    font: 12px/42px "Droid Arabic Kufi";
+
+    margin-bottom: 4px;
+
+    min-height: 48px;
+
+    text-align: right;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+#conlist li:last-child {
+
+    border-bottom: medium none;
+
+    margin-bottom: 0;
+
+}
+
+#conlist li b {
+
+    color: #6b7e84;
+
+}
+
+#conlist li img {
+
+    border: 2px solid #409240;
+
+    border-radius: 30px;
+
+    float: right;
+
+    height: 46px;
+
+    margin-left: 12px;
+
+    margin-right: 8px;
+
+    padding: 6px;
+
+    width: 46px;
+
+}
+
+.phi-form-inline {
+
+    padding: 5px 0;
+
+}
+
+.phi-form-inline .phi-form-row::after {
+
+    clear: both;
+
+}
+
+.phi-form-inline label {
+
+    display: inline-block;
+
+    float: right;
+
+    font: bold 11px/25px "Droid Arabic Kufi";
+
+    margin-left: 16px;
+
+    width: 120px;
+
+}
+
+.phi-form-inline .phi-form-item {
+
+    margin-right: 136px;
+
+}
+
+.phi-form-inline .phi-form-item .phi-form-captcha {
+
+}
+
+.phi-form-inline .phi-form-item select, .phi-form-inline .phi-form-item textarea, .phi-form-inline .phi-form-item input[type="password"], .phi-form-item input[type="text"] {
+
+    width: 100%;
+
+}
+
+.phi-form-inline .phi-form-item select {
+
+    height: 28px;
+
+}
+
+.phi-form-inline .phi-date select {
+
+    width: 115px;
+
+}
+
+.phi-form-inline select, .phi-form-inline textarea, .phi-form-inline .phi-form-item input[type="password"], .phi-form-inline .phi-form-item input[type="text"] {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #c5c5c5;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    margin: 0;
+
+    outline: medium none;
+
+    padding: 6px 7px;
+
+}
+
+.phi-form-inline .phi-form-item .phi-form-captcha img {
+
+    float: right;
+
+    max-width: 20%;
+
+}
+
+.phi-form-inline .phi-form-item .phi-form-captcha input {
+
+    float: left;
+
+    width: 80%;
+
+}
+
+.phi-form-inline .phi-form-row {
+
+    overflow: hidden;
+
+    padding: 3px;
+
+}
+
+.phi-form-inline .phi-form-group {
+
+    background-color: #f8f8f8;
+
+    border-bottom: 1px solid #cccccc;
+
+    border-top: 1px solid #cccccc;
+
+    font: bold 12px/30px "Droid Arabic Kufi";
+
+    margin: 5px -8px;
+
+    overflow: hidden;
+
+    padding: 0 3px;
+
+    text-align: center;
+
+    width: auto;
+
+}
+
+.phi-form-inline .phi-form-level {
+
+    font: bold 12px/30px "Droid Arabic Kufi";
+
+    margin: 5px -8px;
+
+    overflow: hidden;
+
+    padding: 0 3px;
+
+    text-align: center;
+
+    width: auto;
+
+}
+
+.phi-form-inline input[type="submit"] {
+
+    background-color: #409240;
+
+    border: medium none;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    margin: 10px auto;
+
+    padding: 3px 22px;
+
+    text-shadow: 0 0 0;
+
+    white-space: nowrap;
+
+}
+
+#login-menu {
+
+    margin-top: 7px;
+
+    width: 100%;
+
+}
+
+#login-menu li {
+
+    border-bottom: 1px dashed #ebe9e9;
+
+    font: bold 12px/30px "Droid Arabic Kufi";
+
+    height: 30px;
+
+}
+
+#login-menu li:last-child {
+
+    border-bottom: medium none;
+
+}
+
+#login-menu li a {
+
+    color: #606060;
+
+    display: block;
+
+    padding: 0 12px;
+
+}
+
+#site_map_menu {
+
+    padding-bottom: 10px;
+
+}
+
+#site_map_menu li {
+
+    border-radius: 4px;
+
+    font: bold 11px "Droid Arabic Kufi";
+
+    list-style: outside none -moz-arabic-indic;
+
+    margin-right: 45px;
+
+    padding: 2px 31px 2px 8px;
+
+    position: relative;
+
+}
+
+#site_map_menu li:hover {
+
+    background-color: #eeeeee;
+
+}
+
+#site_map_menu li img {
+
+    position: absolute;
+
+    right: 4px;
+
+    top: 4px;
+
+    width: 20px;
+
+}
+
+#site_map_menu li i {
+
+    color: #409240;
+
+    font-size: 18px;
+
+    position: absolute;
+
+    right: 4px;
+
+    text-align: center;
+
+    top: 4px;
+
+    width: 20px;
+
+}
+
+#site_map_menu li a {
+
+    color: #727272;
+
+}
+
+.co_ex {
+
+    font: 11px "Droid Arabic Kufi";
+
+    margin: 0 auto 10px;
+
+}
+
+.co_ex td {
+
+    padding: 0 1px;
+
+}
+
+.banking_loop {
+
+}
+
+.banking_loop li {
+
+    border-color: #ebebeb #ebebeb #c7c7c7;
+
+    border-radius: 4px;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    color: #000000;
+
+    margin: 5px 6px 3px;
+
+    padding: 12px 5px;
+
+    text-align: center;
+
+}
+
+.banking_loop li .name {
+
+    color: #07558c;
+
+    font: 20px "Adobe Arabic";
+
+}
+
+.banking_loop li .a_img {
+
+    max-height: 48px;
+
+    max-width: 100%;
+
+}
+
+.banking_loop li .det {
+
+}
+
+#F_attached {
+
+}
+
+#F_attached li {
+
+    border-radius: 3px;
+
+    margin: 2px;
+
+    padding: 2px;
+
+    text-align: center;
+
+}
+
+#F_attached li img {
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 2px #bec9d1 inset, 0 1px 0 #ffffff;
+
+    max-width: 100%;
+
+    padding: 2px;
+
+}
+
+#cont_meta {
+
+    background-color: #f8f6e7;
+
+    border: 1px solid #ebe6cf;
+
+    border-radius: 3px;
+
+    font-size: 11px;
+
+    line-height: 20px;
+
+    margin: 0 0 6px;
+
+    min-height: 20px;
+
+    text-align: right;
+
+}
+
+#cont_meta ul {
+
+}
+
+#cont_meta ul li {
+
+    color: #0473c0;
+
+    display: block;
+
+    font: 11px/20px "Droid Arabic Kufi";
+
+    height: 20px;
+
+    margin: 6px 0;
+
+    overflow: hidden;
+
+}
+
+#cont_meta ul li.cont-price {
+
+    color: red;
+
+}
+
+#cont_meta ul li em {
+
+    color: #666666;
+
+    font-style: normal;
+
+}
+
+#cont_meta ul li.send_Report .Report {
+
+    display: none;
+
+    font: 11px/23px tahoma;
+
+    padding-top: 13px;
+
+}
+
+#cont_meta ul li a {
+
+    color: #0473c0;
+
+}
+
+#cont_meta ul li i {
+
+    color: #666666;
+
+    font-size: 14px;
+
+    margin-left: 7px;
+
+    text-align: center;
+
+    width: 14px;
+
+}
+
+#cont_meta ul li i.fa-star, #cont_meta ul li i.fa-star-o {
+
+    color: #f4b525;
+
+}
+
+#cont_meta ul li.send_Report:hover .Report {
+
+    display: block;
+
+}
+
+#cont_meta ul li.send_Report .Report a {
+
+    display: block;
+
+}
+
+.ad_special {
+
+    background: rgba(0, 0, 0, 0) url("../icons/banner_special.png") repeat scroll 0 0;
+
+    height: 137px;
+
+    left: -15px;
+
+    position: absolute;
+
+    top: -4px;
+
+    width: 154px;
+
+    z-index: 15;
+
+}
+
+#user-cp {
+
+    padding-bottom: 10px;
+
+}
+
+#user-cp li {
+
+    border-radius: 4px;
+
+    font-size: 14px;
+
+    line-height: 23px;
+
+    padding: 2px 31px 2px 8px;
+
+    position: relative;
+
+}
+
+#user-cp li i {
+
+    color: #666666;
+
+    margin-left: 10px;
+
+    position: absolute;
+
+    right: 7px;
+
+    text-align: center;
+
+    top: 8px;
+
+    width: 14px;
+
+}
+
+#user-cp li i.fa-check-circle {
+
+    color: #059e06;
+
+}
+
+#user-cp li i.fa-star {
+
+    color: #409240;
+
+}
+
+#user-cp li i.fa-sign-out {
+
+    color: #4282c4;
+
+}
+
+#user-cp li i.fa-plus {
+
+    color: #5cbc67;
+
+}
+
+#user-cp li i.fa-edit {
+
+    color: #f59829;
+
+}
+
+#user-cp li i.fa-envelope {
+
+    color: #dd4b39;
+
+}
+
+#user-cp li:hover {
+
+    background-color: #eeeeee;
+
+}
+
+#user-cp li .num {
+
+    background-clip: padding-box;
+
+    background-color: #dc0d17;
+
+    background-image: linear-gradient(#fa3c45, #dc0d17);
+
+    border-radius: 2px;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+    color: #ffffff;
+
+    display: inline-block;
+
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    line-height: normal;
+
+    margin-right: 4px;
+
+    min-height: 13px;
+
+    padding: 1px 3px;
+
+    position: absolute;
+
+    right: 10px;
+
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+
+    top: 0;
+
+}
+
+#user-cp li a {
+
+    color: #727272;
+
+    display: block;
+
+}
+
+.Favorit {
+
+}
+
+.Favorit a {
+
+    font-size: 16px;
+
+}
+
+.Favorit a.Ad2Favorit {
+
+    color: #f4b525;
+
+}
+
+.Favorit a.Dl2Favorit {
+
+    color: #f4b525;
+
+}
+
+.i_ads li {
+
+    border: 1px solid #eeeeee;
+
+    margin-bottom: 10px;
+
+    overflow: hidden;
+
+}
+
+.i_ads li .title {
+
+    float: right;
+
+    font: bold 13px "Droid Arabic Kufi";
+
+    padding: 2px 10px;
+
+}
+
+.i_ads li .ads_activ a {
+
+}
+
+.i_ads li .ads_activ {
+
+    background: #eaf6f9 url("../icons/accept.png") no-repeat scroll 93% center;
+
+    float: left;
+
+    height: 30px;
+
+    line-height: 29px;
+
+    margin: 0;
+
+    padding-right: 25px;
+
+}
+
+.i_ads li .ads_des_activ a {
+
+}
+
+.i_ads li .ads_des_activ {
+
+    background: #eaf6f9 url("../icons/cross.png") no-repeat scroll 93% center;
+
+    float: left;
+
+    height: 30px;
+
+    line-height: 29px;
+
+    margin: 0;
+
+    padding-right: 25px;
+
+}
+
+.items-comments {
+
+    border-radius: 4px;
+
+    margin: 10px 0;
+
+    padding: 10px;
+
+}
+
+.items-comments li {
+
+    margin-bottom: 16px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.items-comments li .del_comment {
+
+    background: rgba(0, 0, 0, 0) url("../icons/close-64.png") repeat scroll 0 0;
+
+    display: none;
+
+    font-size: 0;
+
+    height: 16px;
+
+    left: 7px;
+
+    position: absolute;
+
+    top: 1px;
+
+    width: 15px;
+
+}
+
+.items-comments li .del_comment:hover {
+
+    background-position: 0 17px;
+
+}
+
+.items-comments li:hover .del_comment {
+
+    display: block;
+
+}
+
+.items-comments li .del_report {
+
+    background: rgba(0, 0, 0, 0) url("../icons/checkmark-64.png") repeat scroll 0 49px;
+
+    display: none;
+
+    float: left;
+
+    font-size: 0;
+
+    height: 16px;
+
+    left: 28px;
+
+    position: absolute;
+
+    top: -2px;
+
+    width: 15px;
+
+}
+
+.items-comments li .del_report:hover {
+
+    background-position: 0 17px;
+
+}
+
+.items-comments li:hover .del_report {
+
+    display: block;
+
+}
+
+.items-comments li .send_Report {
+
+    background-position: right 6px;
+
+    background-repeat: no-repeat;
+
+    color: #777777;
+
+    float: left;
+
+    font: 11px/18px "Droid Arabic Kufi";
+
+    text-align: left;
+
+}
+
+.items-comments li .Report {
+
+    display: none;
+
+    font: 11px/19px tahoma;
+
+    padding-top: 10px;
+
+}
+
+.items-comments li .Report a {
+
+    display: block;
+
+}
+
+.items-comments li .send_Report:hover .Report {
+
+    display: block;
+
+}
+
+.items-comments li .items-comments-i {
+
+    border: 1px solid #0473c0;
+
+    border-radius: 65px;
+
+    color: #000000;
+
+    float: right;
+
+    font-family: Georgia;
+
+    font-size: 24px;
+
+    height: 55px;
+
+    line-height: 53px;
+
+    margin: 0;
+
+    min-width: 55px;
+
+    overflow: hidden;
+
+    padding: 2px;
+
+    text-align: center;
+
+}
+
+.items-comments li .items-comments-i i {
+
+    border-radius: 65px;
+
+    box-shadow: 0 0 10px 0 rgba(98, 94, 94, 0.38) inset;
+
+    color: #000000;
+
+    float: right;
+
+    height: 55px;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    text-align: center;
+
+    width: 55px;
+
+}
+
+.items-comments li .items-comments-meta {
+
+    font: bold 11px/19px "Droid Arabic Kufi";
+
+    margin-bottom: 6px;
+
+    margin-right: 65px;
+
+    overflow: hidden;
+
+    padding: 0 2px;
+
+}
+
+.items-comments li .items-comments-meta span {
+
+    float: right;
+
+    margin-left: 14px;
+
+}
+
+.items-comments li .items-comments-meta .items-comments-name-date {
+
+}
+
+.items-comments li .items-comments-meta .items-comments-name-user {
+
+}
+
+.items-comments li .items-comments-meta .items-comments-ads-name {
+
+}
+
+.items-comments li .items-comments-comment {
+
+    font: 13px/21px Droid Arabic Kufi;
+
+    margin-right: 65px;
+
+    padding: 7px 17px;
+
+    text-align: justify;
+
+    word-wrap: break-word;
+
+}
+
+.items-comments li .items-comments-reports {
+
+    border-right: 4px solid #eeeeee;
+
+    font: 11px/20px tahoma;
+
+    padding-right: 9px;
+
+}
+
+.msgs {
+
+    border: 1px solid #eeeeee;
+
+}
+
+.msgs li {
+
+    background-color: #ffffff;
+
+    border-color: #eeeeee;
+
+    border-style: solid;
+
+    border-width: 0 0 1px;
+
+    font: 12px tahoma;
+
+    min-height: 27px;
+
+    overflow: hidden;
+
+    padding: 0 12px;
+
+    position: relative;
+
+}
+
+.msgs li:last-child {
+
+    border: medium none;
+
+}
+
+.msgs li .name_msg {
+
+    color: #606060;
+
+    float: right;
+
+    font: bold 12px/24px tahoma;
+
+    height: 23px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+    width: 492px;
+
+    z-index: 2;
+
+}
+
+.msgs li .name_msg i {
+
+    color: #777;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+}
+
+.msgs li .name_msg a {
+
+    color: #222;
+
+    display: block;
+
+}
+
+.msgs li span {
+
+    color: #757575;
+
+    display: block;
+
+    float: left;
+
+    margin-right: 14px;
+
+    max-width: 99px;
+
+    overflow: hidden;
+
+    padding: 4px 0;
+
+    position: relative;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    z-index: 1;
+
+}
+
+.msgs li .stat {
+
+    float: left;
+
+}
+
+.msgs li span a {
+
+    color: #757575;
+
+}
+
+.msgs li .stat em {
+
+    display: block;
+
+    font-size: 0;
+
+    height: 26px;
+
+    position: absolute;
+
+    right: 0;
+
+    text-align: center;
+
+    text-indent: -2000px;
+
+    width: 100%;
+
+}
+
+.msgs li .delete a {
+
+}
+
+.msg_meta {
+
+    border: 1px solid #ccc;
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    margin: 0 0 15px;
+
+    overflow: hidden;
+
+    padding: 6px 15px;
+
+    position: relative;
+
+}
+
+.msg {
+
+    font: 13px/25px "Droid Arabic Kufi";
+
+    margin-bottom: 10px;
+
+}
+
+.send-msg-4-user {
+
+    font: 13px/25px "Droid Arabic Kufi";
+
+    margin-bottom: 10px;
+
+}
+
+.msg_meta .user_m {
+
+    float: right;
+
+    margin: 0 5px;
+
+}
+
+.msg_meta .date {
+
+    float: left;
+
+}
+
+a.oksem_bellah_yamen_3 {
+
+    font: bold 12px/36px "Droid Arabic Kufi";
+
+}
+
+#err_404 {
+
+}
+
+#err_404 .err_msg {
+
+    font: bold 11px/39px "Droid Arabic Kufi";
+
+    text-align: center;
+
+}
+
+#err_404 .err_number {
+
+    border: 4px solid #d9d5d6;
+
+    border-radius: 50px;
+
+    color: #d9d5d6;
+
+    font: bold 43px/87px "Times New Roman",serif;
+
+    height: 90px;
+
+    margin: 0 auto 20px;
+
+    text-align: center;
+
+    width: 90px;
+
+}
+
+.ads_user {
+
+    background-color: #f8f6e7;
+
+    border: 1px solid #ebe6cf;
+
+    border-radius: 4px;
+
+    font: 11px "Droid Arabic Kufi";
+
+    margin: 6px 0;
+
+    overflow: hidden;
+
+    padding: 8px 9px;
+
+}
+
+.ads_user .user_name {
+
+    float: right;
+
+    margin-left: 12px;
+
+}
+
+.ads_user i {
+
+    color: #666666;
+
+    margin-left: 10px;
+
+}
+
+.ads_user .user_id {
+
+    float: right;
+
+    margin-left: 12px;
+
+}
+
+.ads_user .send_mail {
+
+    float: left;
+
+}
+
+.ads_user .send_mail i {
+
+    color: #dd4b39;
+
+    margin-left: 10px;
+
+}
+
+.shared-this-ads {
+
+    margin: 0 auto;
+
+    width: 427px;
+
+}
+
+.shared-this-ads .shared-this-ads-name {
+
+    float: right;
+
+    font: bold 12px/32px "Droid Arabic Kufi";
+
+    margin-left: 12px;
+
+}
+
+.shared-this-ads .shared-this-ads-icons {
+
+}
+
+.Columns-span-12 {
+
+    width: 100%;
+
+}
+
+.Columns-span-11 {
+
+    width: 91.6667%;
+
+}
+
+.Columns-span-10 {
+
+    width: 83.3333%;
+
+}
+
+.Columns-span-9 {
+
+    width: 75%;
+
+}
+
+.Columns-span-8 {
+
+    width: 66.6667%;
+
+}
+
+.Columns-span-7 {
+
+    width: 58.3333%;
+
+}
+
+.Columns-span-6 {
+
+    width: 50%;
+
+}
+
+.Columns-span-5 {
+
+    width: 41.6667%;
+
+}
+
+.Columns-span-4 {
+
+    width: 33.3333%;
+
+}
+
+.Columns-span-3 {
+
+    width: 25%;
+
+}
+
+.Columns-span-2 {
+
+    width: 16.6667%;
+
+}
+
+.Columns-span-1 {
+
+    width: 8.33333%;
+
+}
+
+[class*="Columns-span-"] {
+
+    float: right;
+
+    min-height: 1px;
+
+}
+
+.Columns-padding-1 {
+
+    padding: 1px;
+
+}
+
+.Columns-padding-2 {
+
+    padding: 2px;
+
+}
+
+.Columns-padding-3 {
+
+    padding: 3px;
+
+}
+
+.Columns-padding-4 {
+
+    padding: 4px;
+
+}
+
+.Columns-padding-5 {
+
+    padding: 5px;
+
+}
+
+.Columns-padding-6 {
+
+    padding: 6px;
+
+}
+
+.Columns-padding-7 {
+
+    padding: 7px;
+
+}
+
+.Columns-padding-8 {
+
+    padding: 8px;
+
+}
+
+.Columns-padding-9 {
+
+    padding: 9px;
+
+}
+
+.Columns-padding-10 {
+
+    padding: 10px;
+
+}
+
+.Columns-padding-11 {
+
+    padding: 11px;
+
+}
+
+.Columns-padding-12 {
+
+    padding: 12px;
+
+}
+
+.social-box {
+
+    display: table;
+
+    margin: 0 auto;
+
+}
+
+.social-box li {
+
+}
+
+.social-box li a {
+
+    background-position: 0 0;
+
+    display: block;
+
+    height: 44px;
+
+    margin-top: 7px;
+
+    text-indent: -9000px;
+
+    width: 213px;
+
+}
+
+.social-box li a.facebook-bar {
+
+    background-image: url("../icons/facebook-bar.png");
+
+}
+
+.social-box li a.google-bar {
+
+    background-image: url("../icons/google-bar.png");
+
+}
+
+.social-box li a.twitter-bar {
+
+    background-image: url("../icons/twitter-bar.png");
+
+}
+
+.social-box li a.window-bar {
+
+    background-image: url("../icons/window-bar.png");
+
+}
+
+.social-box li a.linkedin-bar {
+
+    background-image: url("../icons/linkedin-bar.png");
+
+}
+
+.or-icon {
+
+    background-image: url("../icons/or-popup-icon.png");
+
+    height: 50px;
+
+    margin: 90px auto;
+
+    width: 50px;
+
+}
+
+#box-menu {
+
+    margin-bottom: 20px;
+
+}
+
+#box-menu .box-menu-title {
+
+    background-color: #484687;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    font: bold 12px/39px "Droid Arabic Kufi";
+
+    margin-bottom: 5px;
+
+    position: relative;
+
+    text-align: right;
+
+}
+
+#box-menu .box-menu-title i {
+
+    float: right;
+
+    font-size: 20px;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+    margin-top: 10px;
+
+}
+
+#box-menu .box-menu-content {
+
+    background-color: #f8f7f7;
+
+    border-color: #dbdbdb;
+
+    border-radius: 7px;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    box-shadow: 0 0 1px #ffffff inset;
+
+    padding: 7px 5px;
+
+}
+
+.members-area {
+
+}
+
+.members-area .login {
+
+}
+
+.members-area .login .input-group {
+
+    margin-bottom: 5px;
+
+}
+
+.members-area .login .input-group-addon {
+
+    border-color: #ccc;
+
+}
+
+.members-area .login .form-control {
+
+    margin-top: 0;
+
+}
+
+.members-area .login .remeber {
+
+    margin: 10px 0;
+
+}
+
+.members-area .login .remeber input {
+
+    float: right;
+
+    margin: 4px 0 0 4px;
+
+}
+
+.members-area ul {
+
+    overflow: hidden;
+
+}
+
+.members-area ul li {
+
+    float: right;
+
+    font: bold 11px/24px "Droid Arabic Kufi";
+
+    margin-bottom: 7px;
+
+    margin-left: 18px;
+
+}
+
+.members-area ul li a {
+
+}
+
+footer .footer_info {
+
+}
+
+footer .footer_info_content {
+
+    margin: 7px auto;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+footer .xymh {
+
+    margin-bottom: 30px;
+
+    margin-left: -28px;
+
+    overflow: hidden;
+
+}
+
+footer .xymh .cat {
+
+    overflow: hidden;
+
+}
+
+footer .xymh .cat .title {
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    overflow: hidden;
+
+}
+
+footer .xymh .cat .title a {
+
+    color: #0473c0;
+
+    display: block;
+
+    float: right;
+
+    padding-left: 9px;
+
+}
+
+footer .xymh .cat ul {
+
+    margin-right: 10px;
+
+    margin-top: 10px;
+
+    overflow: hidden;
+
+}
+
+footer .xymh .cat ul li {
+
+    /*background: rgba(0, 0, 0, 0) url("../icons/footer_cat_ul_li-bg.png") no-repeat scroll right center;*/
+
+    float: right;
+
+    font: bold 11px "Droid Arabic Kufi";
+
+    padding: 4px 0;
+
+    width: 97px;
+
+}
+
+footer .xymh .cat ul li i {
+
+    color: #59a5d1;
+
+    display: inline-block;
+
+    float: right;
+
+    margin-top: 5px;
+
+    text-align: center;
+
+    width: 12px;
+
+}
+
+footer .xymh .cat ul li a {
+
+    color: #0473c0;
+
+    display: block;
+
+    margin-right: 15px;
+
+    max-width: 67px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.welcom-user {
+
+    font: bold 12px/21px "Droid Arabic Kufi";
+
+    margin: 6px 0;
+
+    padding-right: 4px;
+
+}
+
+#similar-ads {
+
+}
+
+#similar-ads li {
+
+    border-bottom: 1px dotted #cccccc;
+
+    color: #0473c0;
+
+    display: block;
+
+    font: 11px/30px "Droid Arabic Kufi";
+
+    margin: 6px 0;
+
+    overflow: hidden;
+
+    padding: 4px 0;
+
+}
+
+#similar-ads li .Favorit {
+
+    float: right;
+
+    margin-left: 4px;
+
+}
+
+#similar-ads li:last-child {
+
+    border: medium none;
+
+}
+
+#similar-ads li .num {
+
+    background-color: #92b8c2;
+
+    color: #ffffff;
+
+    float: right;
+
+    height: 30px;
+
+    line-height: 31px;
+
+    margin: 0 0 0 5px;
+
+    text-align: center;
+
+    width: 29px;
+
+}
+
+#similar-ads li .ads-name {
+
+    display: block;
+
+    float: right;
+
+    max-width: 486px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+#similar-ads li .map, #similar-ads li .time {
+
+    color: #666666;
+
+    float: left;
+
+    font-size: 9px;
+
+    font-weight: bold;
+
+    margin: 0 9px;
+
+}
+
+#similar-ads li .map i, #similar-ads li .time i {
+
+    color: #409240;
+
+    margin-left: 5px;
+
+    width: 14px;
+
+}
+
+#similar-ads li .map a {
+
+    color: #666666;
+
+}
+
+.section_name {
+
+    border-bottom: 3px solid #cccccc;
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    margin: 10px auto;
+
+    padding: 0 10px;
+
+}
+
+.section_name span {
+
+    border-bottom: 3px solid #215983;
+
+    margin-bottom: -3px;
+
+    padding: 0 13px;
+
+}
+
+#users_list {
+
+}
+
+#users_list thead {
+
+    background-color: #2fb7e7;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    font: bold 12px/42px "Droid Arabic Kufi";
+
+    height: 28px;
+
+    margin: 3px;
+
+    position: relative;
+
+}
+
+#users_list tr td {
+
+    border: 1px solid #ccebf1;
+
+    padding: 5px 0;
+
+    text-align: center;
+
+}
+
+.site-menu {
+
+    display: table;
+
+    margin: 6px auto;
+
+}
+
+.site-menu li {
+
+    border-radius: 4px;
+
+    float: right;
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    padding: 2px 31px 2px 8px;
+
+    position: relative;
+
+}
+
+.site-menu li a {
+
+    color: #727272;
+
+    display: block;
+
+}
+
+.site-menu li i, .site-menu li img {
+
+    font-size: 18px;
+
+    position: absolute;
+
+    right: 4px;
+
+    top: 4px;
+
+    width: 20px;
+
+}
+
+.site-menu li:hover {
+
+    background-color: #eeeeee;
+
+}
+
+.login-social-box {
+
+    clear: both;
+
+    font: bold 10px/24px "Droid Arabic Kufi";
+
+    margin-bottom: 10px;
+
+    margin-top: 10px;
+
+    overflow: hidden;
+
+}
+
+.login-social-box ul {
+
+}
+
+.login-social-box ul li {
+
+    float: left;
+
+    margin: 0 10px 0 0;
+
+}
+
+.login-social-box ul li a {
+
+    float: left;
+
+    height: 24px;
+
+    text-indent: -999999px;
+
+    width: 24px;
+
+}
+
+.login-social-box ul li a.facebook-bar {
+
+    background-image: url("../icons/social/icons/facebook/facebook-24-black.png");
+
+}
+
+.login-social-box ul li a.google-bar {
+
+    background-image: url("../icons/social/icons/googleplus/googleplus-24-black.png");
+
+}
+
+.login-social-box ul li a.twitter-bar {
+
+    background-image: url("../icons/social/icons/twitter/twitter-24-black.png");
+
+}
+
+.login-social-box ul li a.window-bar {
+
+    background-image: url("../icons/social/icons/microsoftaccount/microsoftaccount-24-black.png");
+
+}
+
+.login-social-box ul li img {
+
+}
+
+.white-icons ul li a.facebook-bar {
+
+    background-image: url("../icons/social/icons/facebook/facebook-24.png");
+
+}
+
+.white-icons ul li a.google-bar {
+
+    background-image: url("../icons/social/icons/googleplus/googleplus-24.png");
+
+}
+
+.white-icons ul li a.twitter-bar {
+
+    background-image: url("../icons/social/icons/twitter/twitter-24.png");
+
+}
+
+.white-icons ul li a.window-bar {
+
+    background-image: url("../icons/social/icons/microsoftaccount/microsoftaccount-24.png");
+
+}
+
+#countries-codes {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #c5c5c5;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    direction: ltr;
+
+    font-family: Georgia;
+
+    margin-right: 4px;
+
+    outline: medium none;
+
+    padding: 3px 7px;
+
+}
+
+.design_by {
+
+    float: right;
+
+    font: bold 12px/24px "Droid Arabic Kufi";
+
+    margin-left: 7px;
+
+}
+
+.design_by a {
+
+    color: #0473c0;
+
+}
+
+.design_by img {
+
+    height: 17px;
+
+    margin: -6px 6px;
+
+}
+
+.last-news-marquee {
+
+    margin-bottom: 10px;
+
+}
+
+.last-news-marquee .marquee-name {
+
+    text-align: center;
+
+}
+
+.last-news-marquee .marquee-name a {
+
+    color: #ffffff;
+
+    display: block;
+
+    margin-right: 15px;
+
+    max-width: 100%;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.last-news-marquee .marquee-name i {
+
+    float: right;
+
+    font-size: 18px;
+
+    line-height: 40px;
+
+    margin-right: 6px;
+
+}
+
+.last-news-marquee .marquee-content {
+
+    background-color: #0473c0;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    display: block;
+
+    font: bold 12px/39px "Droid Arabic Kufi";
+
+    list-style-type: none;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 3px 0;
+
+    position: relative;
+
+    text-align: right;
+
+}
+
+.last-news-marquee .marquee-tools {
+
+    display: block;
+
+    margin: 0 auto;
+
+    padding: 1px 0;
+
+    width: 57px;
+
+}
+
+.last-news-marquee marquee {
+
+}
+
+.last-news-marquee marquee a {
+
+    color: #ffffff;
+
+    display: inline;
+
+    font-size: 12px;
+
+    line-height: 33px;
+
+    margin: 0 3px;
+
+    padding: 7px 10px;
+
+}
+
+.last-news-marquee marquee a:hover {
+
+    background-color: #0473c0;
+
+}
+
+.last-news-marquee span {
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: block;
+
+    float: right;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    width: 19px;
+
+}
+
+.auction_start {
+
+    border-radius: 5px;
+
+    font: bold 11px/34px "Droid Arabic Kufi";
+
+    margin: 0 0 5px;
+
+    padding: 0 10px;
+
+    text-align: center;
+
+}
+
+.auctions-form-inline {
+
+    padding: 5px 0;
+
+}
+
+.auctions-form-inline .auctions-form-row::after {
+
+    clear: both;
+
+}
+
+.auctions-form-inline .auctions-form-row {
+
+    overflow: hidden;
+
+    padding: 3px;
+
+}
+
+.auctions-form-inline label {
+
+    display: inline-block;
+
+    float: right;
+
+    font: bold 9px/25px "Droid Arabic Kufi";
+
+    margin-left: 16px;
+
+    width: 95px;
+
+}
+
+.auctions-form-inline .auctions-form-item {
+
+    margin-left: 16px;
+
+    margin-right: 112px;
+
+}
+
+.auctions-form-inline .auctions-form-item input[type="text"] {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #ebebeb;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 0;
+
+    box-sizing: border-box;
+
+    color: #9d9c9c;
+
+    float: left;
+
+    height: 32px;
+
+    margin: 0;
+
+    outline: medium none;
+
+    overflow: hidden;
+
+    padding: 6px 7px;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.auctions-form-inline input[type="submit"] {
+
+    background-color: #409240;
+
+    border: medium none;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: block;
+
+    font: bold 13px/24px "JF Flat Regular";
+
+    margin: 10px auto;
+
+    padding: 3px 12px;
+
+    white-space: nowrap;
+
+}
+
+#auctions-list li {
+
+    border-bottom: 1px dotted #f1f5f6;
+
+    display: block;
+
+    font: 12px/24px tahoma;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 2px 5px 4px;
+
+}
+
+#auctions-list li:last-child {
+
+    border: medium none;
+
+}
+
+#auctions-list li em {
+
+    color: #0f8bbe;
+
+    float: left;
+
+    font: bold 13px/24px tahoma;
+
+}
+
+#auctions-list li span {
+
+    float: right;
+
+}
+
+#auctions-list li i {
+
+    margin-right: 10px;
+
+}
+
+ul.auctions-listli:last-child {
+
+    border-bottom: medium none;
+
+}
+
+#box-auction {
+
+    margin-bottom: 10px;
+
+}
+
+#box-auction h1.box-auction-name {
+
+    background-color: #f7f7f7;
+
+    border: 1px solid #c2c2c2;
+
+    border-radius: 4px;
+
+    color: #0473c0;
+
+    font: bold 12px/39px "Droid Arabic Kufi";
+
+    margin: 6px 0;
+
+    overflow: hidden;
+
+    padding: 0 10px;
+
+    text-align: right;
+
+}
+
+#box-auction .box-auction-content {
+
+    background-color: #ffffff;
+
+    border: 1px solid #d4d4d4;
+
+    border-radius: 3px;
+
+    font-size: 11px;
+
+    line-height: 20px;
+
+    margin: 0;
+
+    min-height: 20px;
+
+    padding: 9px;
+
+    position: relative;
+
+    text-align: right;
+
+    width: auto;
+
+}
+
+#user-card {
+
+    background-color: #ffffff;
+
+    border-color: #dbdbdb;
+
+    border-radius: 7px;
+
+    border-style: solid;
+
+    border-width: 3px 1px 1px;
+
+    line-height: 26px;
+
+    margin: 0 0 10px;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    position: relative;
+
+}
+
+#user-card .user-card-pic {
+
+    border: 2px solid #dbdbdb;
+
+    display: inline-block;
+
+    float: right;
+
+    font: bold 14px/25px "Droid Arabic Kufi";
+
+    height: 65px;
+
+    margin-left: 16px;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 65px;
+
+}
+
+#user-card .user-vote {
+
+    float: left;
+
+}
+
+#user-card a {
+
+}
+
+#user-card .user-bx {
+
+    padding: 20px;
+
+}
+
+#user-card .user-card-pic .f32 {
+
+    margin: 16px auto;
+
+    width: 34px;
+
+}
+
+#user-card .user-card-name {
+
+    font: bold 17px/40px "Droid Arabic Kufi";
+
+    margin-right: 86px;
+
+    padding: 0;
+
+}
+
+#user-card .user-card-name i {
+
+}
+
+#user-card .user-card-send-mail {
+
+    font: bold 12px/25px "Droid Arabic Kufi";
+
+    margin-right: 6px;
+
+}
+
+#user-card .user-card-number-sales {
+
+    font: bold 12px/25px "Droid Arabic Kufi";
+
+    margin-right: 6px;
+
+}
+
+#user-card .user-card-send-mail i {
+
+}
+
+#user-card .user-card-contact-details {
+
+    background-color: #ffffff;
+
+    margin-top: 2px;
+
+}
+
+#user-card .user-card-contact-details li {
+
+    border-bottom: 1px dotted #cccccc;
+
+    direction: ltr;
+
+    font: bold 12px/40px "Droid Arabic Kufi";
+
+    height: 43px;
+
+    padding: 2px 11px;
+
+    text-align: right;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+#user-card .user-card-contact-details li:last-child {
+
+    border: medium none;
+
+}
+
+#user-card .user-card-contact-details li i::before {
+
+    float: right;
+
+    font-size: 26px;
+
+    margin-left: 12px;
+
+    margin-right: 8px;
+
+    margin-top: 2px;
+
+    min-width: 30px;
+
+    text-align: center;
+
+}
+
+#user-card .user-card-contact-details li img {
+
+    float: right;
+
+    height: 29px;
+
+    margin-left: 12px;
+
+    margin-right: 8px;
+
+    margin-top: 6px;
+
+}
+
+#user-card .user-card-contact-details li b {
+
+    float: right;
+
+    margin-left: 8px;
+
+    width: 92px;
+
+}
+
+#VoteUser {
+
+    height: 65px;
+
+    width: 45px;
+
+}
+
+#VoteUser .vote-number {
+
+    background-color: #f9feff;
+
+    border: 1px solid #2fb7e7;
+
+    color: #7288b7;
+
+    font: bold 14px/45px Georgia;
+
+    margin-bottom: 4px;
+
+    overflow: auto;
+
+    text-align: center;
+
+}
+
+#VoteUser .loading-number {
+
+    background-color: #f9edbe;
+
+    background-image: url("../icons/progress.gif");
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    font-size: 0;
+
+}
+
+#VoteUser .vote-up {
+
+    cursor: pointer;
+
+    float: right;
+
+}
+
+#VoteUser .selected {
+
+    color: #f75d5d;
+
+}
+
+#VoteUser .vote-down {
+
+    cursor: pointer;
+
+    float: left;
+
+}
+
+.CSSlod {
+
+    background-color: #f9edbe;
+
+    background-image: url("../icons/progress.gif");
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    border: 1px solid #f0c36d;
+
+    border-radius: 4px;
+
+    font-size: 0;
+
+    min-height: 26px;
+
+    width: 100%;
+
+}
+
+#loading_page {
+
+    display: none;
+
+    position: relative;
+
+}
+
+#loading_page .load {
+
+    background: rgba(249, 237, 190, 0.8) url("../icons/ploading.gif") no-repeat scroll center center;
+
+    border-bottom: 1px solid #f0c36d;
+
+    border-left: 1px solid #f0c36d;
+
+    border-radius: 0 0 2px 2px;
+
+    border-right: 1px solid #f0c36d;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    height: 39px;
+
+    left: 0;
+
+    margin: 0 auto;
+
+    padding: 3px 16px;
+
+    position: fixed;
+
+    right: 0;
+
+    text-align: center;
+
+    top: 0;
+
+    width: 100px;
+
+    z-index: 9999;
+
+}
+
+#loading_err {
+
+    display: none;
+
+    position: relative;
+
+}
+
+#loading_err .load {
+
+    background: rgba(233, 57, 0, 0.8) url("../icons/error.png") no-repeat scroll center center;
+
+    border-bottom: 1px solid #dd4b39;
+
+    border-left: 1px solid #dd4b39;
+
+    border-radius: 0 0 2px 2px;
+
+    border-right: 1px solid #dd4b39;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    height: 39px;
+
+    left: 0;
+
+    margin: 0 auto;
+
+    padding: 3px 16px;
+
+    position: fixed;
+
+    right: 0;
+
+    text-align: center;
+
+    top: 0;
+
+    width: 100px;
+
+    z-index: 9999;
+
+}
+
+#loading_ok {
+
+    display: none;
+
+    position: relative;
+
+}
+
+#loading_ok .load {
+
+    background: rgba(3, 188, 3, 0.8) url("../icons/Accept-icon.png") no-repeat scroll center center;
+
+    border-bottom: 1px solid #059e06;
+
+    border-left: 1px solid #059e06;
+
+    border-radius: 0 0 2px 2px;
+
+    border-right: 1px solid #059e06;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    height: 39px;
+
+    left: 0;
+
+    margin: 0 auto;
+
+    padding: 3px 16px;
+
+    position: fixed;
+
+    right: 0;
+
+    text-align: center;
+
+    top: 0;
+
+    width: 100px;
+
+    z-index: 9999;
+
+}
+
+.paypal-form {
+
+    display: table;
+
+    margin: 0 auto;
+
+}
+
+.paypal-form input {
+
+}
+
+.paypal-form input[type="text"] {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #c5c5c5;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    margin: 0;
+
+    outline: medium none;
+
+    padding: 6px 7px;
+
+}
+
+.paypal-form button {
+
+    background-color: #409240;
+
+    border: medium none;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font: bold 12px "Droid Arabic Kufi";
+
+    margin: 10px auto;
+
+    padding: 3px 22px;
+
+    text-shadow: 0 0 0;
+
+    white-space: nowrap;
+
+}
+
+.ads-s-items {
+
+}
+
+.ads-s-items table {
+
+    background-color: #fafafa;
+
+    border-color: #dbdbdb;
+
+    border-image: none;
+
+    border-style: solid;
+
+    border-width: 0 1px 1px;
+
+    box-shadow: 0 0 1px #ffffff inset;
+
+    padding: 5px;
+
+    width: 100%;
+
+}
+
+.ads-s-items table thead {
+
+    background: #0473c0 none repeat scroll 0 0;
+
+    color: #ffffff;
+
+    height: 27px;
+
+}
+
+.ads-s-items table thead th {
+
+    font: bold 10px/22px "Droid Arabic Kufi";
+
+    padding: 2px 5px;
+
+}
+
+.ads-s-items table tbody {
+
+}
+
+.ads-s-items table tbody tr {
+
+    border-bottom: 1px solid #dbdbdb;
+
+}
+
+.ads-s-items table tbody tr td {
+
+    border-left: 1px solid #dbdbdb;
+
+    padding: 3px 0;
+
+    text-align: center;
+
+}
+
+.loading_ajax {
+
+    background-color: #f9edbe;
+
+    background-image: url("../icons/progress.gif");
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    border: 1px solid #f0c36d;
+
+    border-radius: 4px;
+
+    font-size: 0;
+
+    min-height: 26px;
+
+    width: 100%;
+
+}
+
+.shared-this {
+
+    direction: ltr;
+
+    margin: 17px auto;
+
+    max-width: 100%;
+
+    width: 450px;
+
+}
+
+.shared-this .shared-this-name {
+
+    float: right;
+
+    font: bold 12px/31px "Droid Arabic Naskh",Arial,Helvetica,sans-serif,Arial,Helvetica,sans-serif;
+
+    margin-left: 11px;
+
+}
+
+.shared-this .shared-this-icons {
+
+}
+
+.url_profile {
+
+    direction: ltr;
+
+    font-size: 11px;
+
+}
+
+#pax_list {
+
+}
+
+#pax_list table {
+
+    width: 100%;
+
+}
+
+.chat-with {
+
+    border: 1px solid #92b8c2;
+
+}
+
+.chat-with li {
+
+    background-color: #f9feff;
+
+    color: #4e6d79;
+
+    font: bold 12px/21px "Droid Arabic Kufi";
+
+    padding: 5px;
+
+}
+
+.chat-with li a {
+
+}
+
+.chat-with li .start-chat {
+
+    float: left;
+
+    font-size: 19px;
+
+    margin-left: 6px;
+
+    margin-top: 0;
+
+}
+
+.chat-with li:nth-child(2n+1) {
+
+    background-color: #def5f9;
+
+}
+
+#chat-with-users {
+
+    border: 1px solid #92b8c2;
+
+    display: none;
+
+}
+
+#chat-with-users li {
+
+    background-color: #f9feff;
+
+    color: #4e6d79;
+
+    font: bold 12px/21px "Droid Arabic Kufi";
+
+    overflow: hidden;
+
+    padding: 5px;
+
+    position: relative;
+
+}
+
+#chat-with-users li span {
+
+    color: #777;
+
+    display: inline-block;
+
+    float: left;
+
+    font-family: tahoma;
+
+    font-size: 11px;
+
+    font-weight: normal;
+
+    line-height: 19px;
+
+    max-width: 67px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+#chat-with-users li .num {
+
+    background-clip: padding-box;
+
+    background-color: #dc0d17;
+
+    background-image: linear-gradient(#fa3c45, #dc0d17);
+
+    border-radius: 2px;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+    color: #ffffff;
+
+    display: inline-block;
+
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    line-height: normal;
+
+    margin-right: 4px;
+
+    min-height: 13px;
+
+    padding: 1px 3px;
+
+    position: absolute;
+
+    right: 10px;
+
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+
+    top: 0;
+
+}
+
+#chat-with-users li a {
+
+    display: block;
+
+    float: right;
+
+    max-width: 157px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+#chat-with-users li .start-chat i {
+
+    font-size: 19px;
+
+    margin-left: 6px;
+
+    margin-top: 0;
+
+}
+
+#chat-with-users li:nth-child(2n+1) {
+
+    background-color: #def5f9;
+
+}
+
+.nopadding {
+
+    padding: 0 !important;
+
+}
+
+.btn-yellow {
+
+    background-color: #484687;
+
+    color: #fff;
+
+}
+
+#numElt_buyer, #ruElt_buyer, #ruElt, #numElt {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #ccc;
+
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+
+    box-sizing: border-box;
+
+    color: #323232;
+
+    margin: 0;
+
+    outline: medium none;
+
+    padding: 6px 7px;
+
+    width: 100%;
+
+}
+
+.banners {
+
+    text-align: center;
+
+}
+
+.banners img {
+
+}
+
+.members-cp {
+
+    left: 0;
+
+    min-width: 275px;
+
+    padding: 15px;
+
+    right: auto;
+
+}
+
+.members-cp-btn {
+
+    background: transparent none repeat scroll 0 0;
+
+    border: medium none;
+
+    color: #fff;
+
+    float: left;
+
+    font: bold 12px/42px "Droid Arabic Kufi";
+
+}
+
+.members-cp-group > .dropdown-toggle.btn-default, .members-cp-btn:hover, .members-cp-btn:focus {
+
+    background: #0473c0 none repeat scroll 0 0;
+
+    border-radius: 0;
+
+    box-shadow: 0 0 0;
+
+    color: #fff;
+
+}
+
+.members-cp-group {
+
+    float: left;
+
+}
+
+.user-ad-contact {
+
+    margin-top: 2px;
+
+}
+
+.user-ad-contact li {
+
+    border-bottom: 1px dotted #cccccc;
+
+    direction: ltr;
+
+    font: bold 12px/40px "Droid Arabic Kufi";
+
+    min-height: 43px;
+
+    padding: 2px 5px;
+
+    text-align: right;
+
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+.user-ad-contact li:last-child {
+
+    border: medium none;
+
+}
+
+.user-ad-contact li i::before {
+
+    float: right;
+
+    font-size: 26px;
+
+    margin-left: 12px;
+
+    margin-right: 8px;
+
+    margin-top: 2px;
+
+    min-width: 30px;
+
+    text-align: center;
+
+}
+
+.user-ad-contact li img {
+
+    float: right;
+
+    height: 29px;
+
+    margin-left: 12px;
+
+    margin-right: 8px;
+
+    margin-top: 6px;
+
+}
+
+.user-ad-contact li b {
+
+    float: right;
+
+    margin-left: 8px;
+
+    width: 92px;
+
+}
+
+#box-elements {
+
+}
+
+#box-elements .box-elements-item {
+
+    border: 1px solid rgba(150, 150, 150, 0.1);
+
+    border-radius: 4px;
+
+    color: #000000;
+
+    margin: 5px 6px 3px;
+
+    padding: 12px 0 3px;
+
+    text-align: center;
+
+}
+
+#box-elements .box-elements-item .box-elements-item-request {
+
+    background-color: #02779e;
+
+    border: medium none;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 0;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font: bold 12px/29px "Droid Arabic Kufi";
+
+    margin: 4px auto;
+
+    padding: 3px 15px;
+
+    text-shadow: 0 0 0;
+
+    white-space: nowrap;
+
+}
+
+#box-elements .box-elements-item .box-elements-item-name {
+
+    background-color: rgba(150, 150, 150, 0.1);
+
+    border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+
+    border-top: 1px solid rgba(150, 150, 150, 0.1);
+
+    font: bold 13px/39px "Droid Arabic Kufi";
+
+    margin: 12px 0;
+
+    padding-right: 16px;
+
+    width: auto;
+
+}
+
+#box-elements .box-elements-item .box-elements-item-name span {
+
+    color: #02779e;
+
+}
+
+#box-elements .box-elements-item .elements {
+
+}
+
+#box-elements .box-elements-item .elements li {
+
+    border: 1px solid rgba(150, 150, 150, 0.1);
+
+    border-radius: 3px;
+
+    color: #000000;
+
+    font: bold 12px/25px "Droid Arabic Kufi";
+
+    margin: 3px 4px;
+
+    overflow: hidden;
+
+    padding: 5px 7px;
+
+    text-align: right;
+
+}
+
+#box-elements .box-elements-item .elements li i {
+
+    color: #3aa53a;
+
+}
+
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger {
+
+    font: 13px/20px "JF Flat Regular";
+
+    padding: 15px;
+
+}
+
+.bg-primary a {
+
+    color: #fff;
+
+}
+
+.items_reservation {
+
+    padding-right: 30px;
+
+}
+
+.items_reservation li {
+
+    font: 20px "Adobe Arabic";
+
+    list-style: outside none decimal-leading-zero;
+
+    margin-bottom: 6px;
+
+}
+
+.items_reservation li i.fa-check-circle {
+
+    color: #059e06;
+
+}
+
+#categories {
+
+    margin: 0 auto 10px;
+
+    overflow: hidden;
+
+}
+
+#categories .box_cat {
+
+    border-radius: 4px;
+
+    height: 209px;
+
+    line-height: 16px;
+
+    margin-bottom: 10px;
+
+    position: relative;
+
+}
+
+#categories .box_cat .title {
+
+    background-color: #2fb7e7;
+
+    border-radius: 6px;
+
+    font: bold 12px/34px JF Flat Regular;
+
+    height: 34px;
+
+    margin-top: 9px;
+
+    padding-right: 49px;
+
+    position: relative;
+
+}
+
+#categories .box_cat .title a {
+
+    border-right: 1px solid #fff;
+
+    color: #ffffff;
+
+    display: block;
+
+    float: right;
+
+    font: 11px/17px Droid Arabic Kufi;
+
+    height: 17px;
+
+    margin-top: 9px;
+
+    max-width: 112px;
+
+    padding-right: 7px;
+
+}
+
+#categories .box_cat .title em {
+
+    background-color: #6e6e71;
+
+    color: #ffffff;
+
+    float: left;
+
+    font-style: normal;
+
+    padding-left: 5px;
+
+    padding-right: 7px;
+
+}
+
+#categories .box_cat .content {
+
+    border-bottom: 2px solid #409240;
+
+    padding: 8px 0 9px;
+
+}
+
+#categories .box_cat .content .footer {
+
+    position: relative;
+
+}
+
+#categories .box_cat .content .more {
+
+    background-color: #2fb7e7;
+
+    border-radius: 15px;
+
+    color: #ffffff;
+
+    display: block;
+
+    font: bold 11px/28px "JF Flat Regular";
+
+    height: 27px;
+
+    left: 8px;
+
+    padding: 0 8px;
+
+    position: absolute;
+
+    text-align: center;
+
+    top: -3px;
+
+}
+
+#categories .box_cat .title .row-img {
+
+    background-color: #409240;
+
+    border: 2px solid #409240;
+
+    border-radius: 50%;
+
+    height: 45px;
+
+    padding: 9px;
+
+    position: absolute;
+
+    right: -7px;
+
+    top: -7px;
+
+    width: 45px;
+
+}
+
+#categories .box_cat .title .row-img img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+}
+
+#categories .box_cat ul {
+
+    height: 139px;
+
+    margin-bottom: 5px;
+
+    margin-right: 16px;
+
+    overflow: hidden;
+
+}
+
+#categories .box_cat ul li {
+
+    border-bottom: 1px dotted #cccccc;
+
+    color: #777777;
+
+    font: bold 11px/34px JF Flat Regular;
+
+    list-style: outside none circle;
+
+}
+
+#categories .box_cat ul li:last-child {
+
+    border: medium none;
+
+}
+
+#categories .box_cat ul li em {
+
+    float: left;
+
+    font-style: normal;
+
+}
+
+#categories .box_cat ul li a {
+
+}
+
+.ads_s {
+
+    margin: 10px auto;
+
+    overflow: hidden;
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+    padding-top: 0;
+
+}
+
+.ads_s li {
+
+    border-bottom: 1px dashed #ccc;
+
+    color: #858585;
+
+    font: bold 12px/21px "JF Flat Regular";
+
+    list-style: outside none none;
+
+    margin: 0;
+
+    padding: 0 2px;
+
+}
+
+.ads_s li em {
+
+    color: #777;
+
+    font-family: tahoma;
+
+    font-style: normal;
+
+    line-height: 19px;
+
+    padding-left: 2px;
+
+    padding-right: 2px;
+
+}
+
+.ads_s li:last-child {
+
+}
+
+.ads_s li a {
+
+    display: inline-block;
+
+    max-width: 100%;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.ads_s li i {
+
+    color: #8e8e8e;
+
+    float: right;
+
+    margin-top: 7px;
+
+    text-align: center;
+
+    width: 17px;
+
+}
+
+#ad-slider {
+
+    border-radius: 16px;
+
+    max-width: 100%;
+
+    overflow: hidden;
+
+    padding: 0 9px;
+
+}
+
+#ad-slider .ad-slider-content {
+
+    padding: 1px;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.ad-slider {
+
+}
+
+#ad-slider .bx-wrapper {
+
+    position: static;
+
+}
+
+#ad-slider .slide {
+
+    color: #ffffff;
+
+    position: relative;
+
+}
+
+#ad-slider .slide .img {
+
+    background: #f4f4f4 url("../icons/url.png") no-repeat scroll center center;
+
+    border: 1px solid #e2e2e2;
+
+    height: 99%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 1px;
+
+    position: relative;
+
+    width: 178px;
+
+}
+
+#ad-slider .slide:hover .ad-name {
+
+    display: block;
+
+}
+
+#ad-slider .slide img {
+
+    display: block;
+
+    height: 360px;
+
+    margin: 0 auto;
+
+    max-width: 100%;
+
+}
+
+#ad-slider .bx-controls .bx-controls-direction a {
+
+    background-size: auto 100%;
+
+    height: 50px;
+
+    margin: 0;
+
+    padding: 0;
+
+    transform: translateY(-50%);
+
+    width: 50px;
+
+}
+
+#ad-slider .bx-wrapper .bx-next {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slide-next.png") no-repeat scroll 0 0;
+
+    right: 7px;
+
+}
+
+#ad-slider .bx-wrapper .bx-prev {
+
+    background: rgba(0, 0, 0, 0) url("../icons/slide-previous.png") no-repeat scroll 0 0;
+
+    left: 7px;
+
+}
+
+#ad-pager {
+
+    margin: 12px auto;
+
+    overflow: hidden;
+
+}
+
+#ad-pager a {
+
+    cursor: pointer;
+
+    display: block;
+
+    float: right;
+
+    opacity: 0.4;
+
+    padding: 3px 4px;
+
+}
+
+#ad-pager a.active {
+
+    opacity: 1;
+
+}
+
+#ad-pager a img {
+
+    border: 3px solid #fff;
+
+    border-radius: 0;
+
+    box-shadow: 0 0 3px #ccc;
+
+    display: block;
+
+    height: 100%;
+
+    line-height: 1.42857;
+
+    margin: 0 auto;
+
+    max-width: 100%;
+
+    padding: 0;
+
+    transition: all 0.2s ease-in-out 0s;
+
+}
+
+#ad-list p {
+
+    font: bold 10px/21px "JF Flat Regular";
+
+    height: 104px;
+
+    overflow: hidden;
+
+    text-align: justify;
+
+}
+
+#wrapper-disable {
+
+    background: rgba(0, 0, 0, 0) url("../icons/overlay.png") repeat scroll 0 0;
+
+    cursor: pointer;
+
+    display: none;
+
+    height: 100%;
+
+    left: 0;
+
+    opacity: 0.9;
+
+    overflow: hidden;
+
+    position: fixed;
+
+    top: 0;
+
+    visibility: visible;
+
+    width: 22%;
+
+    z-index: 999;
+
+}
+
+.wrapper-f {
+
+    position: fixed;
+
+}
+
+.mobile-icons {
+
+}
+
+.mobile-icons li {
+
+    display: block;
+
+    float: left;
+
+    font: bold 14px/29px "JF Flat Regular";
+
+    height: 30px;
+
+    margin-right: 5px;
+
+    margin-top: 12px;
+
+    position: relative;
+
+    width: 30px;
+
+    z-index: 80000;
+
+}
+
+.mobile-icons li i {
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: block;
+
+    font-size: 28px;
+
+}
+
+.offline_user {
+
+    background-color: #898f9c;
+
+    border-radius: 20px;
+
+    display: none;
+
+    float: right;
+
+    height: 12px;
+
+    margin-left: 8px;
+
+    margin-top: 4px;
+
+    overflow: hidden;
+
+    width: 12px;
+
+}
+
+.online_user {
+
+    background-color: #0f9d28;
+
+    border-radius: 20px;
+
+    display: none;
+
+    float: right;
+
+    height: 12px;
+
+    margin-left: 8px;
+
+    margin-top: 4px;
+
+    overflow: hidden;
+
+    width: 12px;
+
+}
+
+.gllpMap {
+
+    margin: 10px 0;
+
+}
+
+.btn-like, .btn-dislike {
+
+    color: #fff;
+
+    cursor: pointer;
+
+    display: table;
+
+    font-family: "Droid Arabic Kufi";
+
+    line-height: 37px;
+
+    margin: 0 auto 10px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 170px;
+
+}
+
+.btn-like i, .btn-dislike i {
+
+    float: right;
+
+    font-size: 23px;
+
+    height: 39px;
+
+    line-height: 39px;
+
+    margin-left: 6px;
+
+    text-align: center;
+
+    width: 45px;
+
+}
+
+.btn-like span, .btn-dislike span {
+
+    direction: ltr;
+
+    display: -moz-box;
+
+    float: left;
+
+    font-family: Georgia;
+
+    font-size: 15px;
+
+    height: 39px;
+
+    margin-right: 10px;
+
+    overflow: hidden;
+
+    padding: 0 11px 0 8px;
+
+    position: relative;
+
+    text-align: center;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    width: 54px;
+
+}
+
+.btn-like em, .btn-dislike em {
+
+    border-radius: 50%;
+
+    display: block;
+
+    height: 22px;
+
+    left: 44px;
+
+    position: absolute;
+
+    top: 9px;
+
+    width: 17px;
+
+}
+
+.btn-like .loading-number, .btn-dislike .loading-number {
+
+    background-color: #f9edbe;
+
+    background-image: url("../icons/loading.gif");
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    font-size: 0;
+
+}
+
+.loading-data {
+
+    background-color: #f9edbe !important;
+
+    background-image: url("../images/loading.gif") !important;
+
+    background-position: center center !important;
+
+    background-repeat: no-repeat !important;
+
+    border: 1px solid #d2bf78 !important;
+
+    color: #f9edbe !important;
+
+    text-shadow: 0 0 0 !important;
+
+}
+
+.btn-like {
+
+    background-color: #1dcb66;
+
+}
+
+.btn-like i {
+
+    background-color: #17b258;
+
+}
+
+.btn-like span {
+
+    background-color: #17b258;
+
+}
+
+.btn-like em {
+
+    background-color: #17b258;
+
+}
+
+.btn-dislike {
+
+    background-color: #adadad;
+
+}
+
+.btn-dislike i {
+
+    background-color: #717171;
+
+}
+
+.btn-dislike span {
+
+    background-color: #717171;
+
+}
+
+.btn-dislike em {
+
+    background-color: #717171;
+
+}
+
+.members-items {
+
+}
+
+.members-items .item {
+
+}
+
+.members-items .item .item-border {
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    padding: 10px;
+
+}
+
+.members-items .item {
+
+}
+
+.members-items .item h4 {
+
+    background-color: #0473c0;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    font: bold 12px/39px "Droid Arabic Kufi";
+
+    margin-bottom: 5px;
+
+    padding: 0 12px;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+.members-items .item ul.contact-list {
+
+}
+
+.members-items .item ul.contact-list > li {
+
+    border-bottom: 1px solid #dadada;
+
+    color: #2e4051;
+
+    display: block;
+
+    font: bold 12px/30px "Droid Arabic Kufi";
+
+    margin: 0 8px;
+
+    padding: 0 5px;
+
+}
+
+.members-items .item ul.contact-list > li > i {
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 22px;
+
+}
+
+.members-items .item ul.contact-list > li > em {
+
+    color: #e51a4a;
+
+    font-style: normal;
+
+}
+
+.members-items .item ul.contact-list > li > a {
+
+    color: #2e4051;
+
+}
+
+.members-items .item ul.ads-list {
+
+}
+
+.members-items .item ul.ads-list > li {
+
+    border-bottom: 1px solid #dadada;
+
+    color: #2e4051;
+
+    display: block;
+
+    font: bold 12px/30px "Droid Arabic Kufi";
+
+    margin: 0 8px;
+
+    padding: 0 5px;
+
+}
+
+.members-items .item ul.ads-list > li:last-child {
+
+    border: none;
+
+}
+
+.members-items .item ul.ads-list > li > i {
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 22px;
+
+}
+
+.members-items .item ul.ads-list > li > em {
+
+    color: #e51a4a;
+
+    font-style: normal;
+
+}
+
+.members-items .item ul.ads-list > li > a {
+
+    color: #2e4051;
+
+}
+

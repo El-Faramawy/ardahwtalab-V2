@@ -1,0 +1,105 @@
+.input-div .bootstrap-select {
+  min-width: 100%;
+}
+.hvr-rectangle-in {
+  border-radius: 0px;
+  background: #888;
+}
+.hvr-rectangle-in:before {
+  background-color: #6d1c1c;
+}
+
+.pageCont {
+  padding: 50px;
+}
+
+.deleteImage {
+  display: inline-block;
+  text-align: center;
+  width: 68px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #ffffff !important;
+  font-family: NeoSansArabic;
+  background-color: #ff0000;
+  font-weight: normal;
+  padding-top: 9px;
+  position: relative;
+  bottom: 12px;
+  left: -9px;
+}
+.AddButton {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: NeoSansArabic;
+  background-color: #059123;
+  font-weight: normal;
+  padding-top: 9px;
+}
+.AddButton:hover {
+  color: #ffffff;
+}
+.drf {
+  width: 55px;
+  height: 53px;
+  margin-top: -14px;
+  float: left;
+}
+.drf img {
+  width: 100%;
+  height: 100%;
+}
+.fontss {
+  position: absolute;
+  margin-top: 9px;
+}
+.text_image {
+  white-space: nowrap;
+  width: 270px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-img .price a {
+  color: #fff;
+  font-size: 14px;
+}
+.messages-menu img {
+  float: right;
+  margin-left: 20px;
+}
+.messages-menu a {
+  color: #999;
+}
+.messages-menu .mess-h {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+.post-info .fixall:after {
+  display: none;
+}
+.post-info i {
+  font-size: 15px;
+  margin: 0px 5px;
+}
+.post-info p.fixall {
+  color: #bcbcbc;
+}
+#map-address {
+  padding: 15px;
+}
+.adv-search-cont {
+  margin-bottom: 120px;
+}
+.recent-ads-sec {
+  margin-top: 0px;
+}

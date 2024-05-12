@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'neosans Bold';
+    src: url('NeoSansArabic-Bold.eot');
+    src: url('NeoSansArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeoSansArabic-Bold.woff2') format('woff2'),
+        url('NeoSansArabic-Bold.woff') format('woff'),
+        url('NeoSansArabic-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'neosans Light';
+    src: url('NeoSansArabic-Light.eot');
+    src: url('NeoSansArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeoSansArabic-Light.woff2') format('woff2'),
+        url('NeoSansArabic-Light.woff') format('woff'),
+        url('NeoSansArabic-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'neosans Black';
+    src: url('NeoSansArabic-Black.eot');
+    src: url('NeoSansArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeoSansArabic-Black.woff2') format('woff2'),
+        url('NeoSansArabic-Black.woff') format('woff'),
+        url('NeoSansArabic-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('NeoSansArabic.eot');
+    src: url('NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+        url('NeoSansArabic.woff2') format('woff2'),
+        url('NeoSansArabic.woff') format('woff'),
+        url('NeoSansArabic.ttf') format('truetype');
+}

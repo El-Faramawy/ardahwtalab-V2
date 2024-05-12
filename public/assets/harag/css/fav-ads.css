@@ -1,0 +1,8 @@
+/*----------- start box --------------*/
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+    .box-img-div{
+        height: 130px;
+    }
+}
+/*----------- end box ----------------*/

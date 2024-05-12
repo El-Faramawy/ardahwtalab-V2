@@ -1,0 +1,143 @@
+@import 'sass/helpers/variables';
+@import 'sass/helpers/mixins';
+@import 'sass/helpers/extends';
+@import 'sass/helpers/classes';
+
+@import 'sass/base/reset';
+@import 'sass/base/typography';
+
+@import 'sass/components/forms';
+@import 'sass/components/navbar';
+@import 'sass/components/carousel';
+@import 'sass/components/accordion';
+
+@import 'sass/layout/header';
+@import 'sass/layout/breadcrumb';
+@import 'sass/pages/home';
+@import 'sass/pages/post';
+@import 'sass/pages/adv-search';
+@import 'sass/pages/result';
+@import 'sass/layout/footer';
+
+
+$color-background: #d2d2af;
+$color-loader: #6d1c1c;
+
+.load-page {
+    background: $color-background;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: $color-loader;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: $color-loader;
+        position: absolute;
+        animation: load .7s infinite alternate ease-in-out;
+    }
+
+    &::before {
+        top: 0;
+    }
+
+    &::after {
+        bottom: 0;
+    }
+}
+
+@keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px
+    }
+
+    50% {
+        height: 8px;
+        width: 40px
+    }
+
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px
+    }
+}
+
+.mo-droplinks {
+    transform: translateX(125%);
+    transition: .5s;
+}
+
+.enter1 {
+    transform: translateX(0);
+}
+
+.menus {
+    position: relative;
+    width: 100%;
+}
+
+.back {
+    font-size: 16px;
+    background-color: $maincolor;
+    color: #d2d2af;
+    font-family: 'Frutiger-bold';
+    height: 50px;
+    align-items: center;
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &::after {
+        content: '\f054';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 13px;
+        color: #d2d2af;
+    }
+
+    &:hover {
+        color: #d2d2af;
+    }
+}
+
+.megaxs-link {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+
+    &::after {
+        content: '\f053';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 13px;
+        color: #333;
+    }
+}

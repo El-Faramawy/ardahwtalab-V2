@@ -1,0 +1,16 @@
+%sliderh1 {
+    font-size: 24px;
+    font-family: Frutiger-bold;
+    color: #6d6d6d;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+
+}
+
+// @extend %sliderh1;

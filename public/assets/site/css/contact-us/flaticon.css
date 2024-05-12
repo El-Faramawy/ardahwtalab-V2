@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "contact-us";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="contact-us-"]:before, [class*=" contact-us-"]:before,
+[class^="contact-us-"]:after, [class*=" contact-us-"]:after {   
+	font-family: contact-us;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.contact-us-address4:before {
+	content: "\e000";
+}
+.contact-us-arroba2:before {
+	content: "\e001";
+}
+.contact-us-cellular1:before {
+	content: "\e002";
+}
+.contact-us-fax1:before {
+	content: "\e003";
+}
+.contact-us-fax5:before {
+	content: "\e004";
+}
+.contact-us-location4:before {
+	content: "\e005";
+}
+.contact-us-mailbox14:before {
+	content: "\e006";
+}
+.contact-us-mailbox19:before {
+	content: "\e007";
+}
+.contact-us-open14:before {
+	content: "\e008";
+}
+.contact-us-phone13:before {
+	content: "\e009";
+}
+.contact-us-phone6:before {
+	content: "\e00a";
+}
+.contact-us-pins54:before {
+	content: "\e00b";
+}
+.contact-us-placard:before {
+	content: "\e00c";
+}
+.contact-us-smart1:before {
+	content: "\e00d";
+}
+.contact-us-whatsapp2:before {
+	content: "\e00e";
+}

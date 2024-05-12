@@ -1,0 +1,63 @@
+body {
+    font-family: Frutiger;
+    overflow: hidden;
+
+    &::-webkit-scrollbar {
+        background-color: rgba(#535353, 0.2);
+        width: 8px;
+        height: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba($maincolor, 0.5);
+
+        &:hover {
+            background-color: rgba($maincolor, 1);
+        }
+    }
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba($maincolor, 0.75) rgba(#535353, 0.2);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170px;
+
+}
+
+.fixall {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(#000000, 0.4);
+    position: fixed;
+    display: none;
+    z-index: 3;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield !important;
+}
+
+.overfolow {
+    overflow: hidden !important;
+}

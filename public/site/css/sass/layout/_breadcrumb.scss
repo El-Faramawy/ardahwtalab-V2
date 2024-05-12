@@ -1,0 +1,39 @@
+.breadcrumb {
+    background-color: #fff;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 35px;
+    margin-bottom: 34px;
+
+    li {
+        &:before {
+            padding-right: 10px;
+            padding-left: 12px;
+            color: #ababab;
+            content: "/\00a0";
+        }
+
+        &:first-child {
+            &:before {
+                display: none;
+            }
+        }
+    }
+
+    a {
+        font-size: 14px;
+        color: #ababab;
+        @include transition(all 0.3s ease-in-out);
+
+        &:hover {
+            color: $maincolor;
+        }
+
+        &.active {
+
+            cursor: default;
+        }
+    }
+}
